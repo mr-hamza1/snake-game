@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:0;
+}
+
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid brown;
+}
+
+.board{
+    display: grid;
+    grid-template-columns:repeat(20,30px);
+    grid-template-rows:repeat(20,30px);
+    gap:0;
+}
+
+.grid-cell{
+    height: 30px;
+    width: 30px;
+    background-color:rgb(172, 223, 32);
+}
+
+.snake{
+    background-color:limegreen;
+}
+
+.food{
+    background-color: red;
+}
