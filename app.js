@@ -96,7 +96,7 @@ function changedirection(event){
 
     if(direction.x!==0 || direction.y!==0){
         if(!g_interval){
-            g_interval=setInterval(movesnake,200);
+            g_interval=setInterval(movesnake,300);
         }
     }
     
